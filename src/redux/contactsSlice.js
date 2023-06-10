@@ -29,7 +29,7 @@ const contactsSlice = createSlice({
     },
   },
 });
-console.log(contactsSlice);
+
 const persistConfig = {
   key: 'contacts',
   storage,
